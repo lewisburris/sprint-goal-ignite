@@ -75,14 +75,13 @@ function Index() {
               <h1
                 className={`mt-6 font-display text-5xl font-extrabold leading-[0.95] tracking-tight text-balance sm:text-6xl md:text-7xl ${fadeUp} [animation-delay:120ms]`}
               >
-                Achieve your 6&nbsp;month goal in{" "}
-                <span className="text-accent">8&nbsp;weeks</span>
+                Achieve Your 6&nbsp;Month Goal In{" "}
+                <span className="text-accent">8&nbsp;Weeks</span>
               </h1>
               <p
                 className={`mx-auto mt-5 max-w-[38ch] font-body text-lg text-pretty text-muted-foreground ${fadeUp} [animation-delay:200ms]`}
               >
-                the science of execution — a repeatable system, not a motivation
-                hack.
+                <span className="underline underline-offset-4 decoration-accent/60">The Science of Execution</span> — a Repeatable System, Not a Motivation Hack.
               </p>
             </div>
 
@@ -120,20 +119,20 @@ function Index() {
                 Application 01
               </p>
               <h2 className="mt-3 font-display text-3xl font-extrabold tracking-tight text-balance sm:text-4xl">
-                Apply for the sprint
+                Apply For The Sprint
               </h2>
               <p className="mt-2 max-w-[40ch] text-pretty text-muted-foreground">
-                Seventy-two hours of pure execution. Tell us what you're
-                committing to — we'll tell you if you're a fit.
+                Seventy-Two Hours Of Pure Execution. Tell Us What You're
+                Committing To — We'll Tell You If You're A Fit.
               </p>
 
               {submitted ? (
                 <div className="mt-7 rounded-lg border border-accent/40 bg-accent/10 p-6 text-center">
                   <p className="font-display text-lg font-extrabold tracking-tight text-accent">
-                    Application received.
+                    Application Received.
                   </p>
                   <p className="mt-1 text-sm text-muted-foreground">
-                    We'll reply within 24 hours. Get ready to execute.
+                    We'll Reply Within 24 Hours. Get Ready To Execute.
                   </p>
                 </div>
               ) : (
@@ -141,7 +140,7 @@ function Index() {
                   <div className="grid gap-5 sm:grid-cols-2">
                     <label className="block">
                       <span className="font-mono text-[11px] uppercase tracking-[0.15em] text-muted-foreground">
-                        Full name
+                        Full Name
                       </span>
                       <input
                         type="text"
@@ -164,7 +163,7 @@ function Index() {
                   </div>
                   <label className="block">
                     <span className="font-mono text-[11px] uppercase tracking-[0.15em] text-muted-foreground">
-                      Your 6-month goal
+                      Your 6-Month Goal
                     </span>
                     <textarea
                       rows={3}
@@ -220,7 +219,7 @@ function Index() {
         </section>
 
         <footer className="flex flex-col items-center justify-between gap-3 border-t border-border py-8 font-mono text-[11px] uppercase tracking-[0.15em] text-muted-foreground sm:flex-row">
-          <span>AXIOM/EXEC — the science of execution</span>
+          <span>AXIOM/EXEC — The Science Of Execution</span>
           <span>© 2026 · Sprint Protocol 07</span>
         </footer>
       </div>
