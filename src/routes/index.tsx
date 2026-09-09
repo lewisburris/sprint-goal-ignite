@@ -89,20 +89,19 @@ function Index() {
               className={`relative z-10 mx-auto mt-10 max-w-3xl ${fadeUp} [animation-delay:300ms]`}
             >
               <div className="group relative overflow-hidden rounded-2xl border border-border bg-background/50 shadow-[0_40px_120px_-30px_rgba(56,189,248,0.35)]">
-                <div className="grid aspect-[16/9] w-full place-items-center bg-gradient-to-br from-accent/10 via-background to-secondary">
-                  <div className="flex flex-col items-center gap-3">
-                    <button
-                      className="grid size-16 cursor-pointer place-items-center rounded-full bg-accent text-accent-foreground transition-transform duration-300 hover:scale-105 hover:ring-4 hover:ring-accent/30"
-                      aria-label="Play video"
-                    >
-                      <span className="ml-1 inline-block h-0 w-0 border-y-[11px] border-l-[18px] border-y-transparent border-l-current" />
-                    </button>
-                    <span className="font-mono text-[11px] uppercase tracking-[0.25em] text-muted-foreground">
-                      Watch the VSL · 04:12
-                    </span>
-                  </div>
+                <div className="relative aspect-[16/9] w-full bg-black">
+                  <iframe
+                    src="https://www.youtube.com/embed/6xnVOD0ViAk?rel=0"
+                    title="VSL"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                    className="absolute inset-0 h-full w-full border-0"
+                  />
                 </div>
               </div>
+              <p className="mt-3 text-center font-mono text-[11px] uppercase tracking-[0.25em] text-muted-foreground">
+                Watch the VSL
+              </p>
             </div>
           </div>
         </section>
