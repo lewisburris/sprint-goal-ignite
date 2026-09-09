@@ -122,8 +122,8 @@ function Index() {
                 Apply For The Sprint
               </h2>
               <p className="mt-2 max-w-[40ch] text-pretty text-muted-foreground">
-                Seventy-Two Hours Of Pure Execution. Tell Us What You're
-                Committing To — We'll Tell You If You're A Fit.
+                7 Days Of Pure Execution. Tell Us What You're Committing To —
+                We'll Tell You If You're A Fit.
               </p>
 
               {submitted ? (
@@ -207,10 +207,10 @@ function Index() {
                     type="submit"
                     className="w-full cursor-pointer rounded-lg bg-accent px-4 py-3.5 font-display text-sm font-extrabold tracking-tight text-accent-foreground transition-all duration-200 hover:bg-accent/90 hover:shadow-[0_10px_40px_-8px_rgba(56,189,248,0.6)]"
                   >
-                    Apply for the 7-day sprint →
+                    Apply For The $147 7-Day Sprint →
                   </button>
                   <p className="text-center font-mono text-[11px] tracking-[0.1em] text-muted-foreground">
-                    No spam · 24h response · 40 spots
+                    Full Refund If You're Not Satisfied · 24h Response · 40 Spots
                   </p>
                 </div>
               )}
