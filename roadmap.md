@@ -1,3 +1,3 @@
 # Task Roadmap
 
-- [ ] Embed YouTube VSL in hero section
+- [x] Embed YouTube VSL in hero section
