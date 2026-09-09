@@ -4,17 +4,17 @@ import { useState, type FormEvent } from "react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Achieve Your 6 Month Goal in 8 Weeks | Execution Sprint" },
+      { title: "Achieve Your 6 Month Goal In 8 Weeks | Execution Sprint" },
       {
         name: "description",
         content:
-          "The science of execution. Watch the breakdown, then apply for the 7-day execution sprint and compress 6 months of momentum into 8 weeks.",
+          "The Science Of Execution. Watch the breakdown, then apply for the 7-day execution sprint and compress 6 months of momentum into 8 weeks.",
       },
-      { property: "og:title", content: "Achieve Your 6 Month Goal in 8 Weeks" },
+      { property: "og:title", content: "Achieve Your 6 Month Goal In 8 Weeks" },
       {
         property: "og:description",
         content:
-          "The science of execution. Watch the video, then apply for the 7-day execution sprint.",
+          "The Science Of Execution. Watch the video, then apply for the 7-day execution sprint.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
