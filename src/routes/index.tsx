@@ -91,7 +91,7 @@ function Index() {
               <div className="group relative overflow-hidden rounded-2xl border border-border bg-background/50 shadow-[0_40px_120px_-30px_rgba(56,189,248,0.35)]">
                 <div className="relative aspect-[16/9] w-full bg-black">
                   <iframe
-                    src="https://www.youtube.com/embed/6xnVOD0ViAk?rel=0"
+                    src="https://www.youtube.com/embed/eDPxpI8tUHs?rel=0"
                     title="VSL"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowFullScreen
