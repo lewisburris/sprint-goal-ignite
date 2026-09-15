@@ -1,14 +1,18 @@
-# Welcome to your Lovable project
+# 8 Week Execution
+
+I want a marketing website, where I can put a VSL video and an applcation section underneath to enter a 7-day execution sprint challenge. The headline for the video is "Achieve your 6 month goal in 8 weeks" and the subtitle is "the science of execution"
 
 This project was built with [Lovable](https://lovable.dev).
 
+**Live app**: https://sprint-goal-ignite.lovable.app
+
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/d1d6aef2-c3d9-413b-927d-32e3b373da82).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +24,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
